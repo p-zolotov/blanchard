@@ -51,7 +51,6 @@ ul {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  outline: none;
 }
 
 :focus-visible {
@@ -103,6 +102,7 @@ ul {
 
 .header-menu__item a {
   padding: 2px 6px 3px;
+  outline: none;
 }
 
 .header-menu__item a:hover {
@@ -383,6 +383,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .hero__menu-item {
   padding: 2px 9px 6px 7px;
   cursor: pointer;
+  outline: none;
 }
 
 .hero__menu-item:hover {
@@ -506,6 +507,7 @@ input[type="search"]::-webkit-search-cancel-button {
   width: 220px;
   height: 40px;
   font-size: 14px;
+  outline: none;
 }
 
 .hero-dropdown_link:hover,
@@ -535,7 +537,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 /* hero search */
 
-.search-wrapper {
+.search {
   display: flex;
   align-items: center;
 }
@@ -544,7 +546,7 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-left: auto;
 }
 
-.hero-search {
+.hero-search-bar {
   display: block;
 }
 
@@ -585,6 +587,7 @@ input[type="search"]::-webkit-search-cancel-button {
   margin-bottom: 80px;
   color: var(--white);
   background-color: var(--violet);
+  outline: none;
 }
 
 .hero-btn:hover {
